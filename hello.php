@@ -1,3 +1,3 @@
 <html>
-<a href="home.html?link=hello.m3u8"></a>
+<a href="home.php?link=hello.m3u8"></a>
 </html>

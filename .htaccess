@@ -1,2 +1,2 @@
 RewriteEngine On
-RewriteRule ^voox$ /?vid= [L]
+RewriteRule ^([^/]*)\.html$ /player.php?vid=$1 [L]

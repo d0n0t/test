@@ -1,18 +1,4 @@
-<?php
 
-$data=34;
-
-$encrypt_a=(($data*3245336234*473647)/945787);
-
-$link = "player.php?vid=".urlencode(base64_encode($encrypt_a);
-
-foreach (_$GET as $key=> $data)
-
-$data2=$_GET[$key] = base64_decode(urldecode($data)) ;
-
-echo $encrypt_b=((($data2*945787)/473647)/3245336234);
-}
-?>
 <title>PHOTOCALL.TV - Streaming</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 

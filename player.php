@@ -7,7 +7,7 @@
 <script src="https://cdn.jsdelivr.net/clappr.chromecast-plugin/latest/clappr-chromecast-plugin.js"></script>
 <div id="player"></div>
 <script>var player = new Clappr.Player({
-source: "<?php echo $_GET['vid'] ?>",
+source: "<?php echo $_GET['$link'] ?>",
 mimeType: "application/x-mpegURL",
 plugins: [LevelSelector, ChromecastPlugin],
 parentId: "#player",
